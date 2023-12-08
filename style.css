@@ -15,7 +15,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 1.8em; /* Larger font size for readability */
+    font-size: 1.8em;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
 }
 
 .content h2 {
-    color: #0048BA; /* Adding a touch of theme color */
+    color: #0048BA;
 }
 
 .event-details {
@@ -33,4 +33,15 @@ main {
 
 .event-details li {
     margin-bottom: 10px;
-    font-size: 1.1em; /* Slightly larger for better
+    font-size: 1.1em;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 1.6em; /* Adjust for smaller screens */
+    }
+}
